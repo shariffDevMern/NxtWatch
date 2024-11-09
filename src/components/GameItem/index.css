@@ -1,0 +1,11 @@
+.game-item {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  .line-break {
+    display: none;
+  }
+}

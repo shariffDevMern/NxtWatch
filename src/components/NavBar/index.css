@@ -1,0 +1,41 @@
+.sun-icon {
+  color: white;
+}
+
+.nav-icon {
+  transform: scale(1.5);
+}
+
+.menu-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  cursor: pointer;
+  width: 100px;
+}
+
+.choices-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.menu-items-container {
+  padding-left: 0px;
+  list-style-type: none;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .menu-icons-container {
+    gap: 20px;
+  }
+}

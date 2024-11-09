@@ -1,0 +1,53 @@
+.banner-logo {
+  width: 100px;
+}
+
+.close-banner-btn {
+  margin-left: auto;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.banner-text {
+  font-size: 14px;
+  width: 250px;
+}
+
+.banner-get-btn {
+  background-color: transparent;
+  border: 1px solid;
+  padding: 10px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.loader-container {
+  margin-top: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.no-videos-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.no-videos-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
