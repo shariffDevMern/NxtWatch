@@ -1,36 +1,31 @@
 # NXTWatch
 
-NXTWatch is a video-streaming platform built with React, designed to replicate core features of popular streaming sites. It offers a user-friendly experience with video search, category filtering, and responsive design.
+NXTWatch is a React-based video streaming application that simulates a video platform experience, allowing users to browse and view videos by category, access detailed video pages, and switch between light and dark themes.
 
 ## Table of Contents
-- [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [API Integration](#api-integration)
+- [Components Overview](#components-overview)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Demo
-Check out the live demo of the project here: [NXTWatch Demo](https://your-live-demo-link.com)
-
 ## Features
-- **User Authentication**: Login and Logout functionality for users.
-- **Video Listing**: Browse videos by category (Trending, Gaming, News).
-- **Video Details**: View specific video details with comments.
-- **Theme Toggle**: Light and Dark mode support for user preferences.
-- **Responsive Design**: Optimized for various screen sizes.
+- **User Authentication**: Secure login page for user access.
+- **Protected Routes**: Restricts access to certain pages based on user authentication.
+- **Video Categories**: Browse videos in categories such as Gaming and Trending.
+- **Dark Mode**: Supports theme toggle between light and dark modes.
+- **Responsive Design**: Optimized for various screen sizes and devices.
 
 ## Technologies Used
-- **React**: JavaScript library for building UI components.
-- **React Router**: For navigation between pages.
-- **CSS Modules**: Modular CSS for scoped styling.
-- **Tailwind CSS**: For responsive and modern styling.
-- **RESTful API**: Backend for fetching video data.
+- **React**: For building the user interface.
+- **React Router**: Manages navigation and routing within the app.
+- **CSS Modules and Styled Components**: Custom styling for individual components.
+- **REST API**: Data fetching and management.
 
 ## Installation
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/shariffDevMern/NxtWatch.git
