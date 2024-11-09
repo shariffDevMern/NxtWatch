@@ -29,3 +29,24 @@ NXTWatch is a React-based video streaming application that simulates a video pla
 1. Clone the repository:
    ```bash
    git clone https://github.com/shariffDevMern/NxtWatch.git
+
+NXTWatch/
+├── public/
+│   ├── index.html           # Main HTML template
+│   ├── manifest.json        # Web app manifest for PWA support
+│   └── img/                 # Static images and icons
+├── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── Login/           # Authentication component
+│   │   ├── MenuItems/       # Navigation menu items
+│   │   ├── ProtectedRoute/  # Auth-protected route component
+│   │   ├── VideoItem/       # Component for individual video items
+│   │   ├── GameItem/        # Component for gaming videos
+│   │   ├── NavBar/          # Header with theme toggle
+│   │   └── Gaming/          # Gaming category component
+│   ├── App.js               # Main application component
+│   ├── index.js             # Entry point of the application
+│   ├── setupTests.js        # Testing setup
+│   └── convertKeys.js       # Utility function for key conversion
+└── package.json             # Project metadata and dependencies
+
